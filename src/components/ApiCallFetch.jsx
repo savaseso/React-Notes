@@ -23,7 +23,7 @@ class ApiCallFetch extends Component {
     render(){
         return(
             <div>
-                <h1>{this.state.loading?"Loading...":this.state.character.name}</h1>
+                <h1>{this.state.loading?"Loading...":this.state.character.name}</h1> {/* conditional rendering */}
             </div>
         )
     }
